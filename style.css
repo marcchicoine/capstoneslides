@@ -109,6 +109,8 @@ section.contentful {
 section .content {
   min-width: 280px;
   width: 48%;
+  max-width: 480px;
+  margin:0 auto;
 }
 section .image,
 img,
@@ -123,7 +125,7 @@ section.contentful:nth-child(odd) {
 }
 
 section.contentful:nth-child(odd) div.content {
-  text-align: right;
+  text-align: left;
 }
 
 
@@ -132,7 +134,7 @@ section.contentful:nth-child(odd) div.content {
   section.contentful {
     flex-flow: row wrap;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     align-items: center;
     align-content: center;
   }
@@ -145,12 +147,12 @@ section.contentful:nth-child(odd) div.content {
     width: 96vw;
     max-width: 540px;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
   }
 
   section.contentful:nth-child(odd) div.content {
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -354,3 +356,7 @@ div.slides:hover img {
         margin: 0 auto;
 }
 
+.allslides {
+width: 90vw;
+margin: 0 auto;
+}
