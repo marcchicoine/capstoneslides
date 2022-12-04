@@ -101,7 +101,7 @@ section.hero p {
 }
 section.contentful {
   display: flex;
-  margin: 48px 0;
+  margin: 24vh 0;
   justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
